@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Color Generator</title>
+</head>
+<body>
+<form>
+    <label for="num">Number of Colors</label>
+    <input type="text" id="num"/> <br/>
+
+
+<fieldset> 
+    <legend>Hue</legend>  
+    <input type="radio" name="hue" id="hue1" value="red"/> <label for="hue1">Red</label> <br>
+    <input type="radio" name="hue" id="hue2" value="orange"/> <label for="hue2">Orange</label> <br>
+    <input type="radio" name="hue" id="hue3" value="yellow"/> <label for="hue3">Yellow</label> <br>
+    <input type="radio" name="hue" id="hue4" value="green"/> <label for="hue4">Green</label> <br>
+    <input type="radio" name="hue" id="hue5" value="blue"/> <label for="hue5">Blue</label> <br>
+    <input type="radio" name="hue" id="hue6" value="purple"/> <label for="hue6">Purple</label> <br>
+    <input type="radio" name="hue" id="hue7" value="pink"/> <label for="hue7">Pink</label> <br>
+    <input type="radio" name="hue" id="hue8" value="random"/> <label for="hue8">Random</label> <br>
+</fieldset>
+
+
+<fieldset>
+    <legend>Luminosity</legend>
+    <input type="radio" name="lum" id="lum1" value="bright"/> <label for="lum1">Bright</label> <br>  
+    <input type="radio" name="lum" id="lum2" value="light"/> <label for="lum2">Light</label> <br>
+    <input type="radio" name="lum" id="lum3" value="dark"/> <label for="lum3">Dark</label> <br>
+    <input type="radio" name="lum" id="lum4" value="random"/> <label for="lum4">Random</label> <br>
+
+</fieldset>
+</form>
+<button id="btn">Generate Colors</button>
+    
+<div id="pal">
+
+</div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.5.2/randomColor.min.js"></script>
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>    
+</body>
+</html>
